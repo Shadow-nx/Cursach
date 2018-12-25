@@ -1,0 +1,45 @@
+﻿  Source.cpp
+c:\users\hq7dxv\source\repos\game\game\level.h(60): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.h(147): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.h(148): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.h(181): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.h(246): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.h(247): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.h(279): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\hq7dxv\source\repos\game\game\level.h(280): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\hq7dxv\source\repos\game\game\level.h(323): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\hq7dxv\source\repos\game\game\level.h(332): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\hq7dxv\source\repos\game\game\level.h(354): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\hq7dxv\source\repos\game\game\level.h(355): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\hq7dxv\source\repos\game\game\source.cpp(30): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\source.cpp(34): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\hq7dxv\source\repos\game\game\source.cpp(51): warning C4551: в вызове функции отсутствует список аргументов
+c:\users\hq7dxv\source\repos\game\game\source.cpp(53): warning C4305: =: усечение из "double" в "float"
+c:\users\hq7dxv\source\repos\game\game\source.cpp(56): warning C4305: =: усечение из "double" в "float"
+c:\users\hq7dxv\source\repos\game\game\source.cpp(60): warning C4305: =: усечение из "double" в "float"
+c:\users\hq7dxv\source\repos\game\game\source.cpp(86): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\hq7dxv\source\repos\game\game\source.cpp(119): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\source.cpp(131): warning C4305: =: усечение из "double" в "float"
+c:\users\hq7dxv\source\repos\game\game\source.cpp(150): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\hq7dxv\source\repos\game\game\source.cpp(156): warning C4305: =: усечение из "double" в "float"
+c:\users\hq7dxv\source\repos\game\game\source.cpp(157): warning C4305: =: усечение из "double" в "float"
+c:\users\hq7dxv\source\repos\game\game\source.cpp(199): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  Создание кода...
+c:\users\hq7dxv\source\repos\game\game\level.h(326): warning C4715: Level::GetObject: значение возвращается не при всех путях выполнения
+  Game.vcxproj -> C:\Users\HQ7DXV\source\repos\Game\Debug\Game.exe
