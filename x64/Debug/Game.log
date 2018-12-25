@@ -1,0 +1,59 @@
+﻿  Source.cpp
+c:\users\hq7dxv\source\repos\game\game\level.hpp(74): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.hpp(132): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\hq7dxv\source\repos\game\game\level.hpp(133): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\hq7dxv\source\repos\game\game\level.hpp(153): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.hpp(154): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.hpp(185): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.hpp(208): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.hpp(209): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.hpp(210): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.hpp(211): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.hpp(215): warning C4244: =: преобразование "const T" в "int", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\hq7dxv\source\repos\game\game\level.hpp(217): warning C4244: =: преобразование "const T" в "int", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\hq7dxv\source\repos\game\game\level.hpp(264): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.hpp(265): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.hpp(296): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\hq7dxv\source\repos\game\game\level.hpp(297): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\hq7dxv\source\repos\game\game\entity.hpp(32): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\hq7dxv\source\repos\game\game\entity.hpp(35): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\hq7dxv\source\repos\game\game\player.hpp(44): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\player.hpp(50): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\hq7dxv\source\repos\game\game\player.hpp(59): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\player.hpp(81): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\player.hpp(98): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\player.hpp(101): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\player.hpp(104): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\player.hpp(107): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\player.hpp(110): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\player.hpp(113): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\player.hpp(116): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\player.hpp(119): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\source.cpp(42): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+c:\users\hq7dxv\source\repos\game\game\level.hpp(342): warning C4715: Level::GetObject: значение возвращается не при всех путях выполнения
+c:\users\hq7dxv\source\repos\game\game\source.cpp(19): warning C4172: возвращение адреса локальной или временной переменной : pos
+  Game.vcxproj -> C:\Users\HQ7DXV\source\repos\Game\x64\Debug\Game.exe
