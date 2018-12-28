@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 #include <map>
-#include <Graphics.hpp>
+#include <SFML/Graphics.hpp>
 #include <iostream>
 #include "tinyxml.h"
 
