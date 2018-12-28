@@ -10,6 +10,8 @@
 #include <tinyxml.h>
 #include <tinystr.h>
 
+using namespace TiXmlBase;
+
 
 using namespace std;
 
@@ -80,7 +82,7 @@ std::string Object::GetPropertyString(std::string name)
 	return properties[name];
 }
 
-bool Level::LoadFromFile(TiXmlstring filename)
+bool Level::LoadFromFile(const std::string filename)
 {
 
 
