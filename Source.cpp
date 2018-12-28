@@ -22,7 +22,7 @@ int main()
 {
 	//Level lvl;
 	//lvl.LoadFromFile("levels/test12.tmx");
-	RenderWindow window(VideoMode(1000, 600), "SFML works!");
+	//RenderWindow window(VideoMode(1000, 600), "SFML works!");
 	view.reset(FloatRect(0, 0, 1000, 600));
 	
 	//Object player = lvl.GetObject("Player");
@@ -42,22 +42,22 @@ int main()
 		clock.restart();
 		time /= 800;
 		Event event;
-		while (window.pollEvent(event)) {
-			if (event.type == Event::Closed)
-				window.close();
-		}
+		//while (window.pollEvent(event)) {
+			//if (event.type == Event::Closed)
+				//window.close();
+		//}
 
 
-		if (Mouse::isButtonPressed(Mouse::Left)) {
+		//if (Mouse::isButtonPressed(Mouse::Left)) {
 			//p.update(mousePosition(window),time);
-		}
+		//}
 		
-		window.clear(Color(77, 83, 140));
+		//window.clear(Color(77, 83, 140));
 		//lvl.Sort(p.getPlayerCoordinateX(), p.getPlayerCoordinatrY());
 		//lvl.Draw(window, 1);
 		//p.Draw(window, view);
 		//lvl.Draw(window, 0);
-		window.display();
+		//window.display();
 
 	}
 
