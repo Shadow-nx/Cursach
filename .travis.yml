@@ -67,8 +67,6 @@ install:
       which cmake || brew install cmake
     fi
 before_script:
-  - which $CXX
-  - $CXX --version
-  - cd ${TRAVIS_BUILD_DIR}
+  - which $CXX & $CXX --version & cd ${TRAVIS_BUILD_DIR}
   script:
   - g++ Source.cpp -I. -std=c++11 -o game
