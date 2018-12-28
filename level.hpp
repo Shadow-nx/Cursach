@@ -10,7 +10,6 @@
 #include <tinyxml.h>
 #include <tinystr.h>
 
-using namespace TiXmlBase;
 
 
 using namespace std;
@@ -86,7 +85,7 @@ bool Level::LoadFromFile(const std::string filename)
 {
 
 
-	TiXmlDocument levelFile(filename);
+	TiXmlDocument levelFile(filename.c_str());
 
 
 	if (!levelFile.LoadFile())
