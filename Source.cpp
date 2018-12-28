@@ -20,8 +20,8 @@ Vector2f& mousePosition(RenderWindow& window) {
 
 int main()
 {
-	Level lvl;
-	lvl.LoadFromFile("levels/test12.tmx");
+	//Level lvl;
+	//lvl.LoadFromFile("levels/test12.tmx");
 	RenderWindow window(VideoMode(1000, 600), "SFML works!");
 	view.reset(FloatRect(0, 0, 1000, 600));
 	
@@ -53,10 +53,10 @@ int main()
 		}
 		
 		window.clear(Color(77, 83, 140));
-		lvl.Sort(p.getPlayerCoordinateX(), p.getPlayerCoordinatrY());
-		lvl.Draw(window, 1);
+		//lvl.Sort(p.getPlayerCoordinateX(), p.getPlayerCoordinatrY());
+		//lvl.Draw(window, 1);
 		p.Draw(window, view);
-		lvl.Draw(window, 0);
+		//lvl.Draw(window, 0);
 		window.display();
 
 	}
