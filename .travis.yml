@@ -70,4 +70,4 @@ before_script:
   - $CXX --version
   - cd ${TRAVIS_BUILD_DIR}
   script:
-  - g++ source.cpp -I. -std=c++11 -o game
+  - g++ Source.cpp -I. -std=c++11 -o game
