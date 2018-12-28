@@ -7,6 +7,7 @@
 #include <map>
 #include <SFML/Graphics.hpp>
 #include <iostream>
+#include <Image.hpp>
 #include <tinyxml.h>
 #include "tinystr.cpp"
 #include <tinystr.h>
