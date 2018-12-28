@@ -8,6 +8,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <tinyxml.h>
+#include "tinystr.cpp"
 #include <tinystr.h>
 
 
