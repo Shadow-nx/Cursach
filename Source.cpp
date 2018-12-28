@@ -4,7 +4,6 @@
 #include "entity.hpp"
 #include "enemy.hpp"
 #include "player.hpp"
-#include "iostream"
 #include "level.hpp"
 #include <vector>
 #include <list>
