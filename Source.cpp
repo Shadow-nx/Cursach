@@ -9,7 +9,6 @@
 #include <list>
 
 using namespace std;
-using namespace TiXmlString;
 using namespace sf;
 View view;
 
