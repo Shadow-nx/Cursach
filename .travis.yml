@@ -73,4 +73,4 @@ script:
 - sudo apt update
 - sudo apt install libtinyxml-doc
 - sudo apt-get install libsfml-dev
-- g++ Source.cpp -I. -std=c++11 -o game -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system -lsfml-graphics-s -lsfml-audio-s -lsfml-window-s -lsfml-system-s -ltinyxml 
+- g++ Source.cpp -I. -std=c++11 -o game -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system -ltinyxml 
