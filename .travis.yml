@@ -70,4 +70,4 @@ before_script:
   - $CXX --version
   - cd ${TRAVIS_BUILD_DIR}
 script:
-- g++ Sourse.cpp -I. -std=c++11 -o queue-example
+- g++ Source.cpp -I. -std=c++11 -o queue-example
