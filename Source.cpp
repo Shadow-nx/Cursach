@@ -12,7 +12,7 @@ using namespace std;
 using namespace sf;
 View view;
 
-Vector2f& mousePosition(RenderWindow& window) {
+Vector2f mousePosition(RenderWindow& window) {
 	Vector2i pixelPosition = Mouse::getPosition(window);
 	Vector2f pos = window.mapPixelToCoords(pixelPosition);
 	return pos;
