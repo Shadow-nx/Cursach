@@ -1,6 +1,7 @@
 #pragma once
 #include "entity.hpp"
 #include <vector>
+#include <cmath>
 
 using namespace std;
 
