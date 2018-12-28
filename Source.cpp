@@ -36,7 +36,7 @@ int main()
 	double Current_Frame = 0.0;
 	Clock clock;
 
-	while (window.isOpen()) {
+	//while (window.isOpen()) {
 
 		float time = clock.getElapsedTime().asMicroseconds();
 		clock.restart();
@@ -59,7 +59,7 @@ int main()
 		//lvl.Draw(window, 0);
 		//window.display();
 
-	}
+	//}
 
 
 	system("PAUSE");
