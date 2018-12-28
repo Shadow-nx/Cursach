@@ -70,4 +70,4 @@ before_script:
   - $CXX --version
   - cd ${TRAVIS_BUILD_DIR}
 script:
-- g++ Source.cpp -I. -std=c++11 -o queue-example -lsfml_system -lsfml_sound -lsfml_window -lsfml_graphics
+- g++ Source.cpp -I. -std=c++11 -o queue-example -lsfml-system -lsfml-sound -lsfml-window -lsfml-graphics
