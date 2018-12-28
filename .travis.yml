@@ -70,6 +70,6 @@ before_script:
   - $CXX --version
   - cd ${TRAVIS_BUILD_DIR}
 script:
-- sudo apt-get install tinyxml-dev
+- sudo apt-get install libtinyxml-doc
 - sudo apt-get install libsfml-dev
 - g++ Source.cpp -I. -std=c++11 -o game -lsfml-system -lsfml-graphics -lsfml-window -ltinyxml 
