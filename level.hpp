@@ -80,11 +80,11 @@ std::string Object::GetPropertyString(std::string name)
 	return properties[name];
 }
 
-bool Level::LoadFromFile(std::string filename)
+bool Level::LoadFromFile(TiXmlstring filename)
 {
 
 
-	TiXmlDocument levelFile(filename.c_str());
+	TiXmlDocument levelFile(filename);
 
 
 	if (!levelFile.LoadFile())
