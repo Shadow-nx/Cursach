@@ -7,8 +7,8 @@
 #include <map>
 #include <SFML/Graphics.hpp>
 #include <iostream>
-#include "tinyxml.h"
-#include "tinystr.h"
+#include <tinyxml.h>
+#include <tinystr.h>
 
 
 using namespace std;
