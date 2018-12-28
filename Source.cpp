@@ -25,9 +25,9 @@ int main()
 	RenderWindow window(VideoMode(1000, 600), "SFML works!");
 	view.reset(FloatRect(0, 0, 1000, 600));
 	
-	Object player = lvl.GetObject("Player");
+	//Object player = lvl.GetObject("Player");
 
-	Player p(lvl, player.rect.left, player.rect.top,96/4,96/4);
+	//Player p(lvl, player.rect.left, player.rect.top,96/4,96/4);
 	
 
 
@@ -49,13 +49,13 @@ int main()
 
 
 		if (Mouse::isButtonPressed(Mouse::Left)) {
-			p.update(mousePosition(window),time);
+			//p.update(mousePosition(window),time);
 		}
 		
 		window.clear(Color(77, 83, 140));
 		//lvl.Sort(p.getPlayerCoordinateX(), p.getPlayerCoordinatrY());
 		//lvl.Draw(window, 1);
-		p.Draw(window, view);
+		//p.Draw(window, view);
 		//lvl.Draw(window, 0);
 		window.display();
 
