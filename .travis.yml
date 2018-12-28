@@ -71,4 +71,4 @@ before_script:
   - cd ${TRAVIS_BUILD_DIR}
 script:
 - sudo apt-get install libsfml-dev
-- g++ Source.cpp -I. -std=c++11 -o game -lsfml-system -lsfml-graphics
+- g++ Source.cpp -I. -std=c++11 -o game -lsfml-system -lsfml-graphics -lsfml-window
